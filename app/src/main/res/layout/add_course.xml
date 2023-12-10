@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtCourseCode"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Course Code" />
+
+    <EditText
+        android:id="@+id/edtCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Course Name" />
+
+    <EditText
+        android:id="@+id/edtLecturerName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Lecturer Name" />
+
+
+    <ImageButton
+        android:id="@+id/btnAddImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/c"
+        android:contentDescription="Add Image" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+</LinearLayout>
